@@ -1,0 +1,380 @@
+/* text section */
+h1 {}
+
+.About {
+text-align: center;
+  }
+
+.doctors-text {
+  margin-top: -190px;
+  margin-left: 630px;
+  margin-right: 100px;
+  text-align: left;
+  vertical-align: middle;
+  float: right;
+}
+
+h3 {}
+
+.doctors-title {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 576px;
+  margin-top: 160px;
+  vertical-align: middle;
+  float: right;
+}
+
+.doctors-text-0 {
+  margin-left: 20px;
+  margin-top: -150px;
+  margin-right: 700px;
+  float: right;
+}
+
+.doctors-title-0 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 585px;
+  margin-top: 200px;
+  float: right;
+}
+
+.welcome {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 100px 450px;
+}
+
+.intro-text {
+  color: ;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  margin: 30px 1150px 10px 50px;
+}
+
+h2 {}
+
+.health {
+  font-size: 4.2rem;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  margin: -130px 800px 0 200px;
+  color: #2d4059;
+}
+
+.priority {
+  font-size: 4.2rem;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  margin: -80px 650px 0 260px;
+  color: #2d4059;
+}
+
+.example {
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.example:hover {
+  text-decoration: underline;
+  text-decoration-color: #602080;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.doctors-title {}
+
+/* table section */
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  background-color: #cbeaed;
+  color: #000;
+  border: 1px solid #000;
+}
+
+table, th, td:hover {
+  background-color: #424874;
+  cursor: pointer;
+  color: #fff;
+}
+
+td {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  height: 100px;
+}
+
+table {
+  float: right;
+}
+
+ .why_the_hell{
+   margin-left: 60px;
+ }
+.table-cell-one {
+  width: 25%;
+  height: 100px;
+}
+
+.table-cell-one:hover {
+  color: #fff;
+}
+
+.table-cell-two {
+  width: 25%;
+  height: 100px;
+}
+
+.appointment {
+  color: #000;
+  padding:50px 50px 50px 55px;
+  margin-left:7px;
+}
+
+.appointment:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #424874;
+}
+
+/* container section */
+.intro-container {}
+
+.intro {
+  position: relative;
+  margin: 60px auto 60px auto;
+}
+
+.top-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.middle-container {
+  margin-top: 100px;
+  padding-top: 60px;
+  margin-bottom: 300px;
+}
+
+.sub-middle_container{
+  margin:50px 0;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #e3e3e3;
+  padding: 50px 0 20px;
+  margin-top: 150px;
+}
+
+/* icon section */
+.social-icon {
+  text-align: center;
+  margin: 40px 30px 10px;
+  color: #ee6f57;
+  size: 20px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
+
+.social-icon-one {
+  text-align: center;
+  color: #ee6f57;
+  margin: 40px 30px 10px;
+  size: 20px;
+}
+
+.social-icon-one:hover {
+  color: #46b5d1;
+  cursor: pointer;
+}
+
+.social-icon-two {
+  color: #ee6f57;
+  margin: 40px 30px 10px;
+  size: 20px;
+}
+
+.social-icon-two:hover {
+  color: #3532a7;
+  cursor: pointer;
+}
+
+/* image section */
+.intro-image {
+  position: absolute;
+  margin: -85px 1140px 40px -10px;
+  background: transparent;
+}
+
+.doctors, .doctors-0 {
+  height: 400px;
+  width: 600px;
+}
+
+.doctors {
+  vertical-align: middle;
+  float: left;
+}
+
+.doctors-0 {
+  float: right;
+  margin-bottom:
+}
+
+/* hr section */
+hr {
+  border-top: 0.8px solid #200f21;
+}
+
+.bottom-hr {
+  border-top: 2px solid #ee6f57;
+  position: static;
+  margin-top: -50px
+}
+
+.top-hr {
+  border-top: 2px solid #382933;
+  position: static;
+  margin-top: ;
+  margin-bottom: 0;
+}
+
+.container-hr {
+    margin-top: 300px;
+    width: 85%;
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+.container-hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.container-hr-1{
+  width: 85%;
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.container-hr-1:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+/* div section */
+.one {
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-bottom: 600px;
+}
+
+.two {
+  vertical-align: middle;
+  margin-bottom: 1200px;
+}
+
+.three {
+  vertical-align: middle;
+  margin-bottom: 1800px;
+}
+
+.four {
+  margin-top: 50px;
+  vertical-align: middle;
+  margin-bottom: 2400px;
+}
+
+.five {
+  vertical-align: middle;
+  margin-bottom: 3000px;
+}
+
+.six {
+  vertical-align: middle;
+  margin-bottom: 3600px;
+}
+
+/* booking form */
+.booking_body {
+  background: url(apointment.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.booking {
+  color: #fff;
+  width: 500px;
+  margin: 25px 433px;
+  padding: 20px;
+  border: solid 3px green;
+  border-radius: 20px;
+}
+
+.btn, .email, .name, .message {
+  height: 10%;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.booking label {
+  font-size: 1.5rem;
+}
+
+.radio{
+color: red;
+}
+
+
+
+
+
+/* background image  */
+.top-image {
+  float: left;
+  height:800px;
+  width: 100%;
+background: cover;
+}
+
+@media (max-width:1029px) {
+  .priority {
+    font-size: 6rem;
+    margin: 325px auto 0 250px;
+  }
+
+  .health {
+    font-size: 6rem;
+    margin: 240px auto 0 150px;
+  }
+}

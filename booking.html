@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\sakshi\Desktop\Web Development\My-work\hospital\hospital.styles.css">
+    <script>
+//////////////////////////////////////////////////////////////
+function enable_dropdown_0(status){
+
+    var select = document.f1.that_select_0;
+
+    status = !status;
+    select.disabled = status;
+
+    for (var i = 0; i < select.children.length; ++i) {
+        if (select.children[i].dataset.default === "true") {
+            select.value = select.children[i].value;
+            break;
+        }
+    }
+
+}
+////////////////////////////////////////////////////////////
+function enable_dropdown_1(status){
+
+    var select = document.f1.that_select_1;
+
+    status = !status;
+    select.disabled = status;
+
+    for (var i = 0; i < select.children.length; ++i) {
+        if (select.children[i].dataset.default === "true") {
+            select.value = select.children[i].value;
+            break;
+        }
+    }
+
+}
+///////////////////////////////////////////////////////////
+function enable_dropdown_2(status){
+
+    var select = document.f1.that_select_2;
+
+    status = !status;
+    select.disabled = status;
+
+    for (var i = 0; i < select.children.length; ++i) {
+        if (select.children[i].dataset.default === "true") {
+            select.value = select.children[i].value;
+            break;
+        }
+    }
+
+}
+//////////////////////////////////////////////////////////
+        function enable_dropdown_3(status){
+
+            var select = document.f1.that_select_3;
+
+            status = !status;
+            select.disabled = status;
+
+            for (var i = 0; i < select.children.length; ++i) {
+                if (select.children[i].dataset.default === "true") {
+                    select.value = select.children[i].value;
+                    break;
+                }
+            }
+
+        }
+///////////////////////////////////////////////////////////////
+
+        function enable_dropdown_4(status){
+
+            var select = document.f1.that_select_4;
+
+            status = !status;
+            select.disabled = status;
+
+            for (var i = 0; i < select.children.length; ++i) {
+                if (select.children[i].dataset.default === "true") {
+                    select.value = select.children[i].value;
+                    break;
+                }
+            }
+
+        }
+/////////////////////////////////////////////////////////////////////
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+  </head>
+  <body class="booking_body" onload="enable_dropdown(false);">
+<form class="booking" action="apointment.php" onload="enable_dropdown(false);" name="f1">
+ <label class="name" for="name">Name</label>
+<input class="name" type="text" name="name" placeholder="Enter your name">
+<label class="email" for="E-mail">E-Mail</label>
+<input class="email" type="email" name="E-mail" placeholder="Enter your E-Mail">
+<br>
+<label for="">select speacilist</label><br> <br>
+<input class="radio" type="checkbox"  id="chkddl" onclick="enable_dropdown_0(this.checked);onlyOne(this);" name="check">pediatrician.
+<select id="that_select_0" name="pediatrician" disabled="disabled">
+  <option value="" selected disabled data-default="true">--select pediatrician--</option>
+  <option value="Dr.Thor">Dr.Thor</option>
+  <option value="Dr.Loki">Dr.Loki</option>
+  <option value="Dr.Odin">Dr.Odin</option>
+  <option value="Dr.Hercules">Dr.Hercules</option>
+  </select>
+  <br><br>
+      <input class="radio" type="checkbox"  id="chkddl_1" onclick="enable_dropdown_1(this.checked);onlyOne(this);" name="check">dermat.
+  <select id="that_select_1" name="dermat" disabled="disabled">
+    <option value="dermat" selected disabled data-default="true">----select dermat----</option>
+    <option value="Dr.Wanda">Dr.Wanda</option>
+    <option value="Dr.Wonder woman">Dr.Wonder woman</option>
+    <option value="Dr.Rhodey">Dr.Rhodey</option>
+    <option value="Dr.Tony stark">Dr.Tony stark</option>
+    </select>
+    <br><br>
+
+    <input class="radio" type="checkbox" id="chkddl_2" onclick="enable_dropdown_2(this.checked);onlyOne(this);" name="check">gastrologist.
+  <select id="that_select_2" name="gastro" disabled="disabled">
+    <option value="gastro" selected disabled data-default="true">----select gastro----</option>
+    <option value="Dr.Hulk">Dr.Hulk</option>
+    <option value="Dr.Widow">Dr.Widow</option>
+    <option value="Dr.Gamora">Dr.Gamora</option>
+    <option value="Dr.star lord">Dr.star lord</option>
+    </select>
+<br> <br>
+
+    <input class="radio" type="checkbox" name="cardiologist" id="chkddl_3" onclick="enable_dropdown_3(this.checked);onlyOne_0(this);" name="check">cardiologist
+    <select id="that_select_3" disabled="disabled">
+      <option value="cardio"  selected disabled disabled data-default="true">--select cardio--</option>
+      <option value="Dr.Groot">Dr.Groot</option>
+      <option value="Dr.Drax">Dr.Drax</option>
+      <option value="Dr.mantis">Dr.mantis</option>
+      <option value="Dr.scott lang">Dr.Scott lang</option>
+    </select>
+    <br> <br>
+
+    <input class="radio" type="checkbox" name="Gynacologist" id="chkddl_4" onclick="enable_dropdown_4(this.checked);onlyOne_0(this);" name="check">Gynacologist
+    <select id="that_select_4" disabled="disabled">
+      <option value="Gynac"  selected disabled data-default="true">--select Gynac--</option>
+      <option value="Dr.Groot">Dr.Marvel</option>
+      <option value="Dr.Drax">Dr.hope pim</option>
+      <option value="Dr.mantis">Dr.Brunnhilde</option>
+      <option value="Dr.scott lang">Dr.Paper pots</option>
+    </select>
+    <br> <br>
+<script type="text/javascript">
+function onlyOne(checkbox) {
+  var checkboxes = document.getElementsByName('check')
+  checkboxes.forEach((item) => {
+      if (item !== checkbox) item.checked = false
+  })
+}
+function onlyOne_0(checkbox) {
+  var checkboxes = document.getElementsByName('check')
+  checkboxes.forEach((item) => {
+      if (item !== checkbox) item.checked = false
+  })
+}
+
+</script>
+  <label for="">Write a short note to doctor about your trouble.</label>
+<textarea class="message" name="message" placeholder="Type the note here" rows="1" cols="5"></textarea>
+<button class="btn btn-outline-light" type="submit" name="button">Request to book appointment</button>
+
+</form>
+  </body>
+</html>
